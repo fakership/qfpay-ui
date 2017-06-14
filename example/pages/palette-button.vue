@@ -66,4 +66,3 @@
     background-color:#26a2ff;
   }
 </style>
- 

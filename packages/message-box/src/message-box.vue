@@ -86,7 +86,7 @@
         color: #999;
         margin: 0;
         text-align: center;
-        line-height: 36px;
+        line-height: 1.5;
       }
 
       @descendent btns {
@@ -94,8 +94,8 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        height: 40px;
-        line-height: 40px;
+        height: 44px;
+        line-height: 44px;
       }
 
       @descendent btn {
@@ -105,6 +105,7 @@
         flex: 1;
         margin: 0;
         border: 0;
+        font-size: 17px;
 
         &:focus {
           outline: none;
@@ -124,10 +125,10 @@
       }
 
       @descendent confirm {
-        color: #26a2ff;
+        color: #FE9B20;
         width: 50%;
         &:active {
-         color: #26a2ff;
+         color: #FE9B20;
         }
       }
     }

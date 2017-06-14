@@ -19,37 +19,37 @@
       text-align: center;
       z-index: 1000;
       transition: opacity .3s linear;
-  
+
       @descendent icon {
         display: block;
         text-align: center;
         font-size: 56px;
       }
-      
+
       @descendent text {
         font-size: 14px;
         display: block;
         text-align: center;
       }
-      
+
       @when placetop {
         top: 50px;
         left: 50%;
         transform: translate(-50%, 0);
       }
-      
+
       @when placemiddle {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
       }
-      
+
       @when placebottom {
         bottom: 50px;
         left: 50%;
         transform: translate(-50%, 0);
       }
-      
+
       @descendent pop-enter, pop-leave-active {
         opacity: 0;
       }

@@ -137,7 +137,7 @@ export default {
       }
 
       @descendent cancel {
-        color: $color-blue;
+        color: $color-primary;
         margin-left: 10px;
         text-decoration: none;
       }
