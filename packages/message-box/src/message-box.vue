@@ -29,7 +29,7 @@
       left: 50%;
       transform: translate3d(-50%, -50%, 0);
       background-color: #fff;
-      width: 85%;
+      width: 80%;
       border-radius: 3px;
       font-size: 16px;
       -webkit-user-select: none;
@@ -42,8 +42,7 @@
       }
 
       @descendent content {
-        padding: 10px 20px 15px;
-        border-bottom: 1px solid #ddd;
+        padding: 10px 20px 0;
         min-height: 36px;
         position: relative;
       }
@@ -77,13 +76,13 @@
         text-align: center;
         padding-left: 0;
         margin-bottom: 0;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
-        color: #333;
+        color: #2F323A;
       }
 
       @descendent message {
-        color: #999;
+        color: #2F323A;
         margin: 0;
         text-align: center;
         line-height: 1.5;
@@ -94,42 +93,34 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        height: 44px;
-        line-height: 44px;
+        justify-content: space-between;
+        box-sizing: content-box;
+        padding: 15px;
       }
 
       @descendent btn {
-        line-height: 35px;
         display: block;
         background-color: #fff;
         flex: 1;
+        height: 44px;
         margin: 0;
         border: 0;
+        border-radius: 3px;
         font-size: 17px;
-
         &:focus {
           outline: none;
-        }
-
-        &:active {
-          background-color: #fff;
         }
       }
 
       @descendent cancel {
-        width: 50%;
-        border-right: 1px solid #ddd;
-        &:active {
-          color: #000;
-        }
+        border: 1px solid #FE9B20;
+        color: #FE9B20;
+        margin-right: 15px;
       }
 
       @descendent confirm {
-        color: #FE9B20;
-        width: 50%;
-        &:active {
-         color: #FE9B20;
-        }
+        background-color: #FE9B20;
+        color: #ffffff;
       }
     }
   }

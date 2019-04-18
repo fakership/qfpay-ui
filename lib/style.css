@@ -1730,7 +1730,8 @@ display: inline-block;
   color: #000;
 }
 .mint-msgbox-confirm {
-  color: #FE9B20;
+  color: #ffffff;
+  background-color: #FE9B20;
   width: 50%;
 }
 .mint-msgbox-confirm:active {
