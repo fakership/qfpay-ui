@@ -33,7 +33,7 @@
 </style>
 
 <script>
-import { once } from 'mint-ui/src/utils/dom';
+import { once } from 'qfpay-ui/src/utils/dom';
 import arrayFindIndex from 'array-find-index';
 
 /**

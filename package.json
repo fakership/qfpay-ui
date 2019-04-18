@@ -1,6 +1,6 @@
 {
   "name": "qfpay-ui",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "qfpay internal elements for vue.js",
   "keywords": [
     "component",
@@ -8,7 +8,7 @@
     "mobile",
     "qfpay"
   ],
-  "main": "lib/mint-ui.common.js",
+  "main": "lib/qfpay-ui.common.js",
   "style": "lib/style.css",
   "files": [
     "lib",
@@ -74,7 +74,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElemeFE/mint-ui.git"
+    "url": "git+https://github.com/fakership/qfpay-ui.git"
   },
   "bugs": {
     "url": "https://github.com/ElemeFE/mint-ui/issues"

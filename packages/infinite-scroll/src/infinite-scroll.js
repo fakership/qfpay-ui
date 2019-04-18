@@ -1,5 +1,5 @@
 import InfiniteScroll from './directive';
-import 'mint-ui/src/style/empty.css';
+import 'qfpay-ui/src/style/empty.css';
 import Vue from 'vue';
 
 const install = function(Vue) {

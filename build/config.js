@@ -4,8 +4,8 @@ var dependencies = require('../package.json').dependencies;
 var externals = {};
 var pkg = {};
 Object.keys(Components).forEach(function(key) {
-  externals[`mint-ui/packages/${key}/index.js`] = `mint-ui/lib/${key}`;
-  externals[`mint-ui/packages/${key}/style.css`] = `mint-ui/lib/${key}/style.css`;
+  externals[`qfpay-ui/packages/${key}/index.js`] = `qfpay-ui/lib/${key}`;
+  externals[`qfpay-ui/packages/${key}/style.css`] = `qfpay-ui/lib/${key}/style.css`;
 });
 Object.keys(dependencies).forEach(function(key) {
   externals[key] = key;
@@ -24,11 +24,10 @@ exports.pkg = Object.assign({
 }, pkg);
 
 exports.alias = {
-  'mint-ui': path.join(__dirname, '..'),
+  'qfpay-ui': path.join(__dirname, '..'),
   'src': path.join(__dirname, '../src')
 };
 
 exports.jsexclude = /node_modules|lib/;
 
 exports.extends = ['vue2', 'saladcss', 'buble'];
-

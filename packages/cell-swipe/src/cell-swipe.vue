@@ -50,11 +50,11 @@
 </template>
 
 <script>
-import { once } from 'mint-ui/src/utils/dom';
-import XCell from 'mint-ui/packages/cell/index.js';
-import Clickoutside from 'mint-ui/src/utils/clickoutside';
+import { once } from 'qfpay-ui/src/utils/dom';
+import XCell from 'qfpay-ui/packages/cell/index.js';
+import Clickoutside from 'qfpay-ui/src/utils/clickoutside';
 if (process.env.NODE_ENV === 'component') {
-  require('mint-ui/packages/cell/style.css');
+  require('qfpay-ui/packages/cell/style.css');
 }
 
 /**

@@ -60,8 +60,8 @@
 </template>
 
 <script>
-  import { once } from 'mint-ui/src/utils/dom';
-  import { addClass, removeClass } from 'mint-ui/src/utils/dom';
+  import { once } from 'qfpay-ui/src/utils/dom';
+  import { addClass, removeClass } from 'qfpay-ui/src/utils/dom';
 
   export default {
     name: 'mt-swipe',
